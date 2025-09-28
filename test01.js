@@ -1,43 +1,46 @@
 // Single line comment
 
 /*
-    Multi line comment
+
+Multiline comment
+^_^
+T_T
+
 */
 
-// DATA TYPE ชนิดข้อมูล
-// String   
-console.log("AAAAA")
-console.log('BBBBB')
-console.log(`CCCCC`)
+//DATA TYPES ชนิดข้อมูล
+//String
+console.log("AAAAA");
+console.log("BBBBB");
+console.log("CCCCC");
+//number
+console.log(1111);//integer(int)
+console.log(15.426879);//float
 
-//Nember
-console.log(11111)      //integer
-console.log(15.426879)  //float
-
-//Boolean
-console.log(true)      // 1 หรือ มีค่าข้อมูลใดๆ
-console.log(false)     // 0
+//boolean
+console.log(true);// 1 หรือมีค่าข้อมูลใดๆ
+console.log(false);// 0 หรือไม่มีค่าข้อมูลใดๆ
 
 //Null
-console.log(null)     // ค่าNull
+console.log(null); //ค่า null
 
-//object เขียนอยู่ใน { } curly brackets และมีรูปแบบเป็น Key : Value
+//object เขียนอยู่ใสน { } curly bracket และมีรูปแบบเป็น key :value
 console.log({
-    name: 'John',
+    name: "Sombat",
     age: 20,
     isStudent: true,
-    address : {
-        province: 'Chonburi',
-        contry : 'Thailand'
-    }
-    food: ['KFC', 'Pizza', 'Burger']
-})
+    address: {
+        province: "Nonthaburi",
+        contry: "Thailand"
+    },
+    food: [KFC, Burger, Pizza]
+});
 
-//Array เขียนอยู่ใน [ ] square brackets มีได้หลายข้อมูล , comma
-//ทุกValue ของ Array จะมี Index number กำกับ โดยเริ่มต้นที่ 0 
-console.log([1,2,3,4,5])
-console.lofg([111, 'Somjai', true, 555, {name: 'John', age: 20}, [111,222,333]])
-
-//undefined ยังไม่กำหนดค่า
+//Array เขียนอยู่ใน [ ] square bracket มีได้หลายข้อมูลคั่นด้วย , comma
+//ทุก value ใน array จะมี index number กำกับ โดยเริ่มต้นที่ 0
+console.log([1, 2, 3, 4, 5]);
+console.log([111, 'Somjai', true, 555, { name: 'Somvat', age: 20 }]);
+ 
+//undefined ยังไม่ได้กำหนดค่า
 let x
-console.log(x)
+console.log(x);
