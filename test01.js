@@ -33,7 +33,7 @@ console.log({
         province: "Nonthaburi",
         contry: "Thailand"
     },
-    food: [KFC, Burger, Pizza]
+    food: [KFC, Burger, macdonalds]
 });
 
 //Array เขียนอยู่ใน [ ] square bracket มีได้หลายข้อมูลคั่นด้วย , comma
